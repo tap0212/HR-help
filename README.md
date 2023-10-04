@@ -18,3 +18,4 @@
 - Papaparser for parsing the CSV
 
 ## You can use this CSV for testing purposes
+[Doc](https://docs.google.com/spreadsheets/d/1J2_Fv8zteFxKcs4hfYTyt3gSfnPRv7tJpnXmku5yZRg/edit#gid=0)
