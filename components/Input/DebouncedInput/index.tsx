@@ -13,13 +13,13 @@ const DebouncedInput = ({
   styles,
   ...props
 }: DevounceInputProps ) =>{
-  const [value, setValue] = useState(initialValue);
+  const [value, setValue] = useState<string | number>(initialValue);
 
   useEffect(() => {
     setValue(initialValue);
   }, [initialValue]);
 
-  React.useEffect(() => {
+  useEffect(() => {
     const timeout = setTimeout(() => {
       onChange(value);
     }, debounce);

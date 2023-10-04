@@ -10,9 +10,7 @@ export default function Home() {
   const [csvData, setCsvData] = useState<any[]>([])
   const onSubmitCSV = (data: any[]) => {
     setCsvData(data)
-  }
-  console.log({csvData});
-  
+  }  
   return (
     <main
       className={`flex min-h-screen flex-col items-center bg-black-90 ${inter.className}`}

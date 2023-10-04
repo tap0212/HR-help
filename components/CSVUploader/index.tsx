@@ -2,7 +2,7 @@ import { ChangeEvent, SyntheticEvent, useRef, useState } from "react"
 import Papa from 'papaparse';
 
 interface CSVUploaderProps {
-		onSubmitCSV: (d: any[]) => void;
+	onSubmitCSV: (d: any[]) => void;
 }
 const CSVUploader = ({onSubmitCSV}: CSVUploaderProps) => {
 	const [isDragActive, setIsDragActive] = useState<boolean>(false);
